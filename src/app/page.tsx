@@ -18,11 +18,17 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import ListArr from "@/components/sections/listArr";
+import localFont from 'next/font/local';
+
+const drukCondSuperTrial = localFont({
+  src: '../fonts/DrukCond-Super-Trial.otf',
+  display: 'swap',
+});
 
 export default function Home() {
   return (
     <>
-      <h1 className="text-4xl">WOW GUYS TO DO LIST</h1>
+      <h1 className="text-8xl" style={{ fontFamily: 'drukCondSuperTrial' }}>TO DO LIST</h1>
       <ListArr />
     </>
   );

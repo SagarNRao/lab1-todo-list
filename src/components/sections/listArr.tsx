@@ -21,11 +21,11 @@ interface Todo {
 }
 
 const initialTodoList: Todo[] = [
-  { id: 1, task: "Buy groceries", completed: false },
-  { id: 2, task: "Walk the dog", completed: false },
-  { id: 3, task: "Finish homework", completed: false },
-  { id: 4, task: "Clean the house", completed: false },
-  { id: 5, task: "Read a book", completed: false },
+  // { id: 1, task: "Buy groceries", completed: false },
+  // { id: 2, task: "Walk the dog", completed: false },
+  // { id: 3, task: "Finish homework", completed: false },
+  // { id: 4, task: "Clean the house", completed: false },
+  // { id: 5, task: "Read a book", completed: false },
 ];
 
 export default function ListArr() {
