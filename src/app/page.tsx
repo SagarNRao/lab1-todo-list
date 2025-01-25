@@ -28,7 +28,7 @@ const drukCondSuperTrial = localFont({
 export default function Home() {
   return (
     <>
-      <h1 className="text-8xl" style={{ fontFamily: 'drukCondSuperTrial' }}>TO DO LIST</h1>
+      <h1 className="text-8xl text-center" style={{ fontFamily: 'drukCondSuperTrial' }}>TO DO LIST</h1>
       <ListArr />
     </>
   );
